@@ -214,6 +214,9 @@ class ViewController1: UIViewController {
             make.right.left.equalToSuperview()
             make.height.equalToSuperview().dividedBy(2.25)
         }
+        // make.bottom.equalto(viewBar.snp.centerY)
+        //make.width.equaltosuperview
+        //make.top.equaltosuperview.offset(-100)
         view.addSubview(viewBar)
         viewBar.snp.makeConstraints { make in
             make.right.equalToSuperview()

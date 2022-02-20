@@ -51,6 +51,7 @@ class ViewController: UIViewController {
         view.text = "Box Office"
         view.textColor = UIColor.black
         view.textAlignment = .center
+        view.layer.opacity = 0.3
         view.font = UIFont.boldSystemFont(ofSize: 30.0)
         return view
     }()
